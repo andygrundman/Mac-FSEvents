@@ -1,5 +1,8 @@
 Revision history for Perl extension Mac::FSEvents.
 
+        - Remove antiquated hints/darwin.pl universal binary helper script no longer
+          needed on modern Macs.
+
 0.13    2017-01-01 16:00:00
         - Alter version check so that Mac::FSEvents builds on Sierra.
         - Fix warning due to global time destruction bug.
